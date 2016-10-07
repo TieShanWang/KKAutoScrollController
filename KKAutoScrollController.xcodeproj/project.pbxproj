@@ -16,7 +16,7 @@
 		3C899BAB1DA804640094C217 /* KKAutoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899BA51DA804640094C217 /* KKAutoCollectionViewCell.m */; };
 		3C899BAC1DA804640094C217 /* KKAutoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C899BA61DA804640094C217 /* KKAutoCollectionViewCell.xib */; };
 		3C899BAD1DA804640094C217 /* KKAutoPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899BA81DA804640094C217 /* KKAutoPageControl.m */; };
-		3C899BAE1DA804640094C217 /* KKAutoScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899BAA1DA804640094C217 /* KKAutoScrollViewController.m */; };
+		3C899BAE1DA804640094C217 /* KKAutoScrollController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C899BAA1DA804640094C217 /* KKAutoScrollController.m */; };
 		3F43126F654B127B955A2944 /* libPods-KKAutoScrollController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFB86F349827B553DC6124F /* libPods-KKAutoScrollController.a */; };
 /* End PBXBuildFile section */
 
@@ -36,8 +36,8 @@
 		3C899BA61DA804640094C217 /* KKAutoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KKAutoCollectionViewCell.xib; sourceTree = "<group>"; };
 		3C899BA71DA804640094C217 /* KKAutoPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAutoPageControl.h; sourceTree = "<group>"; };
 		3C899BA81DA804640094C217 /* KKAutoPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAutoPageControl.m; sourceTree = "<group>"; };
-		3C899BA91DA804640094C217 /* KKAutoScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAutoScrollViewController.h; sourceTree = "<group>"; };
-		3C899BAA1DA804640094C217 /* KKAutoScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAutoScrollViewController.m; sourceTree = "<group>"; };
+		3C899BA91DA804640094C217 /* KKAutoScrollController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKAutoScrollController.h; sourceTree = "<group>"; };
+		3C899BAA1DA804640094C217 /* KKAutoScrollController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKAutoScrollController.m; sourceTree = "<group>"; };
 		86195C5B09780FD267D2490B /* Pods-KKAutoScrollController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKAutoScrollController.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKAutoScrollController/Pods-KKAutoScrollController.release.xcconfig"; sourceTree = "<group>"; };
 		8B9F2DF8E0624D1EFE7761FE /* Pods-KKAutoScrollController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKAutoScrollController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKAutoScrollController/Pods-KKAutoScrollController.debug.xcconfig"; sourceTree = "<group>"; };
 		BAFB86F349827B553DC6124F /* libPods-KKAutoScrollController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KKAutoScrollController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -85,7 +85,7 @@
 		3C899B8B1DA804560094C217 /* KKAutoScrollController */ = {
 			isa = PBXGroup;
 			children = (
-				3C899BA31DA804640094C217 /* UIAutoScrollViewController */,
+				3C899BA31DA804640094C217 /* UIAutoScrollController */,
 				3C899B8F1DA804560094C217 /* AppDelegate.h */,
 				3C899B901DA804560094C217 /* AppDelegate.m */,
 				3C899B921DA804560094C217 /* ViewController.h */,
@@ -107,7 +107,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3C899BA31DA804640094C217 /* UIAutoScrollViewController */ = {
+		3C899BA31DA804640094C217 /* UIAutoScrollController */ = {
 			isa = PBXGroup;
 			children = (
 				3C899BA41DA804640094C217 /* KKAutoCollectionViewCell.h */,
@@ -115,9 +115,10 @@
 				3C899BA61DA804640094C217 /* KKAutoCollectionViewCell.xib */,
 				3C899BA71DA804640094C217 /* KKAutoPageControl.h */,
 				3C899BA81DA804640094C217 /* KKAutoPageControl.m */,
-				3C899BA91DA804640094C217 /* KKAutoScrollViewController.h */,
-				3C899BAA1DA804640094C217 /* KKAutoScrollViewController.m */,
+				3C899BA91DA804640094C217 /* KKAutoScrollController.h */,
+				3C899BAA1DA804640094C217 /* KKAutoScrollController.m */,
 			);
+			name = UIAutoScrollController;
 			path = UIAutoScrollViewController;
 			sourceTree = "<group>";
 		};
@@ -255,7 +256,7 @@
 				3C899B911DA804560094C217 /* AppDelegate.m in Sources */,
 				3C899B8E1DA804560094C217 /* main.m in Sources */,
 				3C899BAB1DA804640094C217 /* KKAutoCollectionViewCell.m in Sources */,
-				3C899BAE1DA804640094C217 /* KKAutoScrollViewController.m in Sources */,
+				3C899BAE1DA804640094C217 /* KKAutoScrollController.m in Sources */,
 				3C899BAD1DA804640094C217 /* KKAutoPageControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
