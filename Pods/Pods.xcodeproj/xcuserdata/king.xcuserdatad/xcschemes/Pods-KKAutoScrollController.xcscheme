@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '7EA6FE28A7629E74A8490AFBD7F109D6'
+               BlueprintIdentifier = 'FFA19482FC03208F680C55F0A970B306'
                BlueprintName = 'Pods-KKAutoScrollController'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-KKAutoScrollController.a'>

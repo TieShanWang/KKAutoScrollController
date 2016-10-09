@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>KKBaseComponent.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Pods-KKAutoScrollController.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1CC8D9DA3A4E43D0FC8211CE5E6DF2DC</key>
+		<key>07F1359E86CA5A1F9B3EFE89669FC1BB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>29592ADE48877309D98A427122F8F99B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>7EA6FE28A7629E74A8490AFBD7F109D6</key>
+		<key>FFA19482FC03208F680C55F0A970B306</key>
 		<dict>
 			<key>primary</key>
 			<true/>
